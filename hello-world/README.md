@@ -5,4 +5,6 @@ Description: A simple 2d project displaying "hello world" text with the use of i
 
 Screenshots:
 
-![image alt](https://github.com/Baryusu/Game-Development/blob/master/hello-world/helloworld.png?raw=true)
+![image alt](https://github.com/Baryusu/Game-Development/blob/master/hello-world/screenshot_1.png?raw=true)
+
+![image alt](https://github.com/Baryusu/Game-Development/blob/master/hello-world/screenshot_2.png?raw=true)
