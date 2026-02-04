@@ -1,1 +1,1 @@
-Day 1: 
+Day 1:  Simple Scene with a moving node
