@@ -1,0 +1,456 @@
+[gd_scene format=3 uid="uid://dpv7a81hsk48c"]
+
+[ext_resource type="Texture2D" uid="uid://cvtllpyd13kos" path="res://icon.svg" id="1_tr34o"]
+
+[node name="Icon" type="Sprite2D" unique_id=146183960]
+position = Vector2(58.999996, 57)
+scale = Vector2(0.36328125, 0.3867187)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=1254774939]
+position = Vector2(2, 127)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon2" type="Sprite2D" parent="." unique_id=117386047]
+position = Vector2(1, 255)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon3" type="Sprite2D" parent="." unique_id=1276595314]
+position = Vector2(1, 381)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon4" type="Sprite2D" parent="." unique_id=1759233292]
+position = Vector2(0, 506)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon5" type="Sprite2D" parent="." unique_id=1538727217]
+position = Vector2(128, 256)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon6" type="Sprite2D" parent="." unique_id=1794580071]
+position = Vector2(257, 257)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon7" type="Sprite2D" parent="." unique_id=939698108]
+position = Vector2(385, 255)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon8" type="Sprite2D" parent="." unique_id=149147216]
+position = Vector2(385, 132)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon9" type="Sprite2D" parent="." unique_id=1064998647]
+position = Vector2(386, 5)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon10" type="Sprite2D" parent="." unique_id=111917190]
+position = Vector2(385, 383)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon11" type="Sprite2D" parent="." unique_id=240034292]
+position = Vector2(386, 510)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon12" type="Sprite2D" parent="." unique_id=313807695]
+position = Vector2(583, 3)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon13" type="Sprite2D" parent="." unique_id=1626620383]
+position = Vector2(584, 132)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon14" type="Sprite2D" parent="." unique_id=1707816523]
+position = Vector2(584, 255)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon15" type="Sprite2D" parent="." unique_id=1076969984]
+position = Vector2(584, 381)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon16" type="Sprite2D" parent="." unique_id=1688369374]
+position = Vector2(585, 507)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon17" type="Sprite2D" parent="." unique_id=2058059551]
+position = Vector2(708, 5)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon18" type="Sprite2D" parent="." unique_id=1954830134]
+position = Vector2(707, 257)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon19" type="Sprite2D" parent="." unique_id=1597619635]
+position = Vector2(709, 506)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon20" type="Sprite2D" parent="." unique_id=1218915054]
+position = Vector2(833, 5)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon21" type="Sprite2D" parent="." unique_id=515634657]
+position = Vector2(834, 256)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon22" type="Sprite2D" parent="." unique_id=1472082748]
+position = Vector2(834, 505)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon23" type="Sprite2D" parent="." unique_id=113286726]
+position = Vector2(1034, 1)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon24" type="Sprite2D" parent="." unique_id=395723941]
+position = Vector2(1039, 128)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon25" type="Sprite2D" parent="." unique_id=1563818428]
+position = Vector2(1033, 258)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon26" type="Sprite2D" parent="." unique_id=1945179507]
+position = Vector2(1035, 388)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon27" type="Sprite2D" parent="." unique_id=1380621571]
+position = Vector2(1034, 511)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon28" type="Sprite2D" parent="." unique_id=217127108]
+position = Vector2(1158, 510)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon29" type="Sprite2D" parent="." unique_id=231294336]
+position = Vector2(1285, 510)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon30" type="Sprite2D" parent="." unique_id=547833391]
+position = Vector2(1478, -3)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon31" type="Sprite2D" parent="." unique_id=600506606]
+position = Vector2(1476, 122)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon32" type="Sprite2D" parent="." unique_id=1264372241]
+position = Vector2(1478, 249)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon33" type="Sprite2D" parent="." unique_id=1459562103]
+position = Vector2(1479, 373)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon34" type="Sprite2D" parent="." unique_id=90336975]
+position = Vector2(1480, 502)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon35" type="Sprite2D" parent="." unique_id=1876334632]
+position = Vector2(1612, 500)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon36" type="Sprite2D" parent="." unique_id=322461391]
+position = Vector2(1741, 499)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon37" type="Sprite2D" parent="." unique_id=767763487]
+position = Vector2(1958, 117)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon38" type="Sprite2D" parent="." unique_id=895674313]
+position = Vector2(1957, 1)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon39" type="Sprite2D" parent="." unique_id=1132648106]
+position = Vector2(2087, 2)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon40" type="Sprite2D" parent="." unique_id=2094626541]
+position = Vector2(1955, 242)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon41" type="Sprite2D" parent="." unique_id=647851691]
+position = Vector2(1955, 496)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon42" type="Sprite2D" parent="." unique_id=511937998]
+position = Vector2(1957, 369)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon43" type="Sprite2D" parent="." unique_id=999375767]
+position = Vector2(2218, 1)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon44" type="Sprite2D" parent="." unique_id=783542942]
+position = Vector2(2345, 1)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon45" type="Sprite2D" parent="." unique_id=2091408319]
+position = Vector2(2345, 128)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon46" type="Sprite2D" parent="." unique_id=1943503685]
+position = Vector2(2347, 250)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon47" type="Sprite2D" parent="." unique_id=61383594]
+position = Vector2(2346, 374)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon48" type="Sprite2D" parent="." unique_id=29216842]
+position = Vector2(2341, 501)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon49" type="Sprite2D" parent="." unique_id=382496718]
+position = Vector2(2083, 496)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon50" type="Sprite2D" parent="." unique_id=154698690]
+position = Vector2(2210, 499)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon51" type="Sprite2D" parent="." unique_id=1998865304]
+position = Vector2(-15.827934, 858.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon52" type="Sprite2D" parent="." unique_id=1623740122]
+position = Vector2(-14.827934, 988.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon53" type="Sprite2D" parent="." unique_id=2126252930]
+position = Vector2(-13.827934, 1117.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon54" type="Sprite2D" parent="." unique_id=1576491992]
+position = Vector2(-13.827934, 1246.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon55" type="Sprite2D" parent="." unique_id=853311774]
+position = Vector2(713.17206, 982.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon56" type="Sprite2D" parent="." unique_id=1864897870]
+position = Vector2(111.172066, 1366.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon57" type="Sprite2D" parent="." unique_id=646560325]
+position = Vector2(241.17206, 1242.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon58" type="Sprite2D" parent="." unique_id=1648925582]
+position = Vector2(241.17206, 1114.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon59" type="Sprite2D" parent="." unique_id=488071116]
+position = Vector2(238.17206, 1369.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon60" type="Sprite2D" parent="." unique_id=1626922681]
+position = Vector2(241.17206, 983.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon61" type="Sprite2D" parent="." unique_id=1466556155]
+position = Vector2(241.17206, 853.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon62" type="Sprite2D" parent="." unique_id=709052876]
+position = Vector2(363.17206, 1367.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon63" type="Sprite2D" parent="." unique_id=1602424123]
+position = Vector2(713.17206, 859.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon64" type="Sprite2D" parent="." unique_id=2078548103]
+position = Vector2(490.17206, 1241.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon65" type="Sprite2D" parent="." unique_id=1520816908]
+position = Vector2(489.17206, 1112.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon66" type="Sprite2D" parent="." unique_id=572933491]
+position = Vector2(493.17206, 988.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon67" type="Sprite2D" parent="." unique_id=1691835952]
+position = Vector2(490.17206, 861.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon68" type="Sprite2D" parent="." unique_id=232465722]
+position = Vector2(715.17206, 1106.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon69" type="Sprite2D" parent="." unique_id=740306378]
+position = Vector2(718.17206, 1233.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon70" type="Sprite2D" parent="." unique_id=28599600]
+position = Vector2(718.17206, 1363.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon71" type="Sprite2D" parent="." unique_id=1832692037]
+position = Vector2(839.17206, 860.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon72" type="Sprite2D" parent="." unique_id=1517871981]
+position = Vector2(972.17206, 857.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon73" type="Sprite2D" parent="." unique_id=1996822960]
+position = Vector2(1099.1721, 857.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon74" type="Sprite2D" parent="." unique_id=886764291]
+position = Vector2(1099.1721, 984.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon75" type="Sprite2D" parent="." unique_id=1029232883]
+position = Vector2(1102.1721, 1106.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon76" type="Sprite2D" parent="." unique_id=110264816]
+position = Vector2(1102.1721, 1233.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon77" type="Sprite2D" parent="." unique_id=1388672232]
+position = Vector2(1102.1721, 1354.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon78" type="Sprite2D" parent="." unique_id=2000805864]
+position = Vector2(845.17206, 1365.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon79" type="Sprite2D" parent="." unique_id=1150229406]
+position = Vector2(975.17206, 1363.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon80" type="Sprite2D" parent="." unique_id=1208673639]
+position = Vector2(1342.1721, 852.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon81" type="Sprite2D" parent="." unique_id=1816685166]
+position = Vector2(1337.1721, 980.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon82" type="Sprite2D" parent="." unique_id=1975161904]
+position = Vector2(1340.1721, 1108.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon83" type="Sprite2D" parent="." unique_id=1863998129]
+position = Vector2(1345.1721, 1231.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon84" type="Sprite2D" parent="." unique_id=947420724]
+position = Vector2(1345.1721, 1359.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon85" type="Sprite2D" parent="." unique_id=1344823038]
+position = Vector2(1470.1721, 851.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon86" type="Sprite2D" parent="." unique_id=390764205]
+position = Vector2(1600.1721, 851.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon87" type="Sprite2D" parent="." unique_id=430288852]
+position = Vector2(1729.1721, 856.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon88" type="Sprite2D" parent="." unique_id=252495032]
+position = Vector2(1732.1721, 983.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon89" type="Sprite2D" parent="." unique_id=612529386]
+position = Vector2(1732.1721, 1116.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon90" type="Sprite2D" parent="." unique_id=1928291262]
+position = Vector2(1473.1721, 1116.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon91" type="Sprite2D" parent="." unique_id=1097150698]
+position = Vector2(1600.1721, 1113.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon92" type="Sprite2D" parent="." unique_id=1457588358]
+position = Vector2(1604.1721, 1241.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon93" type="Sprite2D" parent="." unique_id=1175528582]
+position = Vector2(1963.1721, 854.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon94" type="Sprite2D" parent="." unique_id=1924703240]
+position = Vector2(1966.1721, 981.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon95" type="Sprite2D" parent="." unique_id=1781027741]
+position = Vector2(1966.1721, 1108.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon96" type="Sprite2D" parent="." unique_id=1089101406]
+position = Vector2(1969.1721, 1237.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon97" type="Sprite2D" parent="." unique_id=977363980]
+position = Vector2(1969.1721, 1359.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon98" type="Sprite2D" parent="." unique_id=304847656]
+position = Vector2(2096.172, 1356.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon99" type="Sprite2D" parent="." unique_id=1902678861]
+position = Vector2(2228.172, 1353.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon100" type="Sprite2D" parent="." unique_id=1825020137]
+position = Vector2(2447.172, 850.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon101" type="Sprite2D" parent="." unique_id=1792935736]
+position = Vector2(2449.172, 980.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon102" type="Sprite2D" parent="." unique_id=1604283887]
+position = Vector2(2450.172, 1108.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon103" type="Sprite2D" parent="." unique_id=2000839783]
+position = Vector2(2450.172, 1237.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon104" type="Sprite2D" parent="." unique_id=837119552]
+position = Vector2(2450.172, 1363.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon105" type="Sprite2D" parent="." unique_id=1235507652]
+position = Vector2(2570.172, 847.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon106" type="Sprite2D" parent="." unique_id=1801328801]
+position = Vector2(2697.172, 847.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon107" type="Sprite2D" parent="." unique_id=293733125]
+position = Vector2(2802.172, 974.5153)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon108" type="Sprite2D" parent="." unique_id=648722900]
+position = Vector2(2795.172, 1098.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon109" type="Sprite2D" parent="." unique_id=590706183]
+position = Vector2(2793.172, 1228.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon110" type="Sprite2D" parent="." unique_id=1011105912]
+position = Vector2(2574.172, 1358.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon111" type="Sprite2D" parent="." unique_id=1354773080]
+position = Vector2(2697.172, 1353.5154)
+texture = ExtResource("1_tr34o")
+
+[node name="Icon112" type="Sprite2D" parent="." unique_id=226335727]
+position = Vector2(1696.1721, 1358.5154)
+texture = ExtResource("1_tr34o")
