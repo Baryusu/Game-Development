@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dvec65ywkpdnx"]
 
 [ext_resource type="Texture2D" uid="uid://bim58tpvsjyfb" path="res://Assets/Sprites/slimes.png" id="1_2d52u"]
+[ext_resource type="Script" uid="uid://dmbuogd8j5p8b" path="res://Scripts/slime.gd" id="1_5jc4t"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5jc4t"]
 atlas = ExtResource("1_2d52u")
@@ -98,6 +99,7 @@ animations = [{
 radius = 13.601471
 
 [node name="Slime" type="CharacterBody2D" unique_id=1917814567]
+script = ExtResource("1_5jc4t")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1907851272]
 position = Vector2(31, -64)

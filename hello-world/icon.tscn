@@ -3,6 +3,9 @@
 [ext_resource type="Texture2D" uid="uid://cvtllpyd13kos" path="res://icon.svg" id="1_tr34o"]
 [ext_resource type="PackedScene" uid="uid://dvec65ywkpdnx" path="res://slime.tscn" id="2_hqyvl"]
 
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_hqyvl"]
+distance = -0.5785217
+
 [node name="HelloWorld" type="Sprite2D" unique_id=146183960]
 position = Vector2(72.625, 74.375)
 scale = Vector2(0.15039061, 0.11523432)
@@ -477,3 +480,11 @@ position = Vector2(122.18183, 569.49176)
 
 [node name="Slime6" parent="." unique_id=35047432 instance=ExtResource("2_hqyvl")]
 position = Vector2(1139.5326, 456.6782)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=2076012997]
+position = Vector2(-83.94806, 1801.7635)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=125840197]
+position = Vector2(1442.9093, 43.389847)
+scale = Vector2(15, 15)
+shape = SubResource("WorldBoundaryShape2D_hqyvl")
