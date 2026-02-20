@@ -7,6 +7,6 @@
 
 **Screenshots:**
 
-![image alt](https://github.com/Baryusu/Game-Development/blob/master/hello-world/physics_screenshot1.png?raw=true)
+![image alt](https://github.com/Baryusu/Game-Development/blob/master/physics-input/physics_screenshot1.png?raw=true)
 
-![image alt](https://github.com/Baryusu/Game-Development/blob/master/hello-world/physics_screenshot2.png?raw=true)
+![image alt](https://github.com/Baryusu/Game-Development/blob/master/physics-input/physics_screenshot2.png?raw=true)
