@@ -1,10 +1,12 @@
-Week 1: Simple Scene with a moving node
+**Week 2 : Node with Physics & Keyboard Input**
 
-Description: A simple 2d project displaying "hello world" text with the use of icons and slimes as design for background.
+**Gameplay Mechanics**
+**Subtopics:** Handling input (keyboard/gamepad), physics bodies (rigid/kinematic), collision detection. Basics of player controllers (movement, jumping).
+**Exercises:** Build a dodge mechanic or simple platformer character; test with physics tweaks.
 
 
-Screenshots:
+**Screenshots:**
 
-![image alt](https://github.com/Baryusu/Game-Development/blob/master/hello-world/screenshot_1.png?raw=true)
+![image alt](https://github.com/Baryusu/Game-Development/blob/master/hello-world/physics_screenshot1.png?raw=true)
 
-![image alt](https://github.com/Baryusu/Game-Development/blob/master/hello-world/screenshot_2.png?raw=true)
+![image alt](https://github.com/Baryusu/Game-Development/blob/master/hello-world/physics_screenshot2.png?raw=true)
