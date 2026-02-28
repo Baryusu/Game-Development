@@ -1,4 +1,4 @@
-**Week 3:** Activity1 UI/UX & Audio
+**Week 3:** Activity 1 - UI/UX & Audio
 
 **Subtopics:**
       HUD elements (health bars, scores), menu systems (CanvasLayer), audio
@@ -10,8 +10,9 @@
       
 **Links:**
       GUI in Godot | Audio Features | Audacity Guide.
+      
 
-**Week 3:** Activity 2 AI & Enemies
+**Week 3:** Activity 2 - AI & Enemies
 
 **Subtopics:**
       Pathfinding navigation, finite state machines for behaviors
