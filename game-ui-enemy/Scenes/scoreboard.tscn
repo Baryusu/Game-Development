@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://ceqwstcs28d1"]
+
+[ext_resource type="Texture2D" uid="uid://bbxp7owaksgs" path="res://Assets/Sprites/player.png" id="1_53buj"]
+[ext_resource type="Texture2D" uid="uid://demyrb6bofyep" path="res://Assets/Sprites/coins.png" id="2_7bodn"]
+
+[node name="scoreboard" type="CanvasLayer" unique_id=1154352177]
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=909960070]
+offset_right = 224.0
+offset_bottom = 81.0
+
+[node name="Player" type="Sprite2D" parent="PanelContainer" unique_id=558109549]
+position = Vector2(42, 38)
+scale = Vector2(0.76222223, 0.67523366)
+texture = ExtResource("1_53buj")
+region_enabled = true
+region_rect = Rect2(174, 287, 102, 97)
+
+[node name="Coins" type="Sprite2D" parent="PanelContainer" unique_id=706889313]
+position = Vector2(107, 40)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_7bodn")
+region_enabled = true
+region_rect = Rect2(173, 6, 132, 135)
+
+[node name="Label" type="Label" parent="." unique_id=500937149]
+offset_left = -34.0
+offset_top = 21.0
+offset_right = 190.0
+offset_bottom = 66.0
+theme_override_font_sizes/font_size = 24
+text = " "
+horizontal_alignment = 2

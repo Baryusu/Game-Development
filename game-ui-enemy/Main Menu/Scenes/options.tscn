@@ -1,0 +1,88 @@
+[gd_scene format=3 uid="uid://cugqex8tb6lr"]
+
+[ext_resource type="Script" uid="uid://ci1iq6ihbx63i" path="res://Main Menu/Scripts/options.gd" id="1_ppbdo"]
+[ext_resource type="Texture2D" uid="uid://lh0g67i8a4l7" path="res://Main Menu/Assets/Buttons/New folder/candy_background.png.jpg" id="2_lyonv"]
+
+[node name="Options" type="Control" unique_id=89540247]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_ppbdo")
+
+[node name="CandyBackground_png" type="Sprite2D" parent="." unique_id=2053123738]
+position = Vector2(376.5, 198.5)
+scale = Vector2(2.5896552, 2.2586207)
+texture = ExtResource("2_lyonv")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1142395940]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 17.0
+offset_right = 717.0
+offset_bottom = 332.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1536013822]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer" unique_id=1695363830]
+layout_mode = 2
+text = "OPTIONS
+"
+horizontal_alignment = 1
+
+[node name="BG" type="Label" parent="MarginContainer/VBoxContainer" unique_id=1753141460]
+layout_mode = 2
+text = "BG Volume
+"
+
+[node name="Volume" type="HSlider" parent="MarginContainer/VBoxContainer" unique_id=1204272320]
+layout_mode = 2
+max_value = 5.0
+step = 0.01
+value = 0.5
+
+[node name="SFX" type="Label" parent="MarginContainer/VBoxContainer" unique_id=670223797]
+layout_mode = 2
+text = "SFX Volume
+"
+
+[node name="SFX_Volume" type="HSlider" parent="MarginContainer/VBoxContainer" unique_id=856611673]
+layout_mode = 2
+max_value = 5.0
+step = 0.01
+value = 0.5
+
+[node name="Label2" type="Label" parent="MarginContainer/VBoxContainer" unique_id=1150985235]
+layout_mode = 2
+text = "Mute"
+
+[node name="Mute" type="CheckBox" parent="MarginContainer/VBoxContainer" unique_id=527225360]
+layout_mode = 2
+
+[node name="Resolution" type="Label" parent="MarginContainer/VBoxContainer" unique_id=2080013721]
+layout_mode = 2
+text = "Resolution"
+
+[node name="Resolutions" type="OptionButton" parent="MarginContainer/VBoxContainer" unique_id=1492403973]
+layout_mode = 2
+selected = 0
+item_count = 3
+popup/item_0/text = "750 x 400"
+popup/item_0/id = 2
+popup/item_1/text = "1280 x 720"
+popup/item_1/id = 1
+popup/item_2/text = "1600 x 900"
+popup/item_2/id = 0
+
+[node name="Close" type="Button" parent="." unique_id=753048274]
+layout_mode = 0
+offset_left = 571.0
+offset_top = 347.0
+offset_right = 717.0
+offset_bottom = 378.0
+text = "Close"
+
+[connection signal="value_changed" from="MarginContainer/VBoxContainer/Volume" to="." method="_on_volume_value_changed"]
+[connection signal="value_changed" from="MarginContainer/VBoxContainer/SFX_Volume" to="." method="_on_sfx_volume_value_changed"]
+[connection signal="toggled" from="MarginContainer/VBoxContainer/Mute" to="." method="_on_mute_toggled"]
+[connection signal="item_selected" from="MarginContainer/VBoxContainer/Resolutions" to="." method="_on_resolutions_item_selected"]
+[connection signal="pressed" from="Close" to="." method="_on_close_pressed"]

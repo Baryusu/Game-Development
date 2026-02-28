@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bw838dlixllgq"]
+
+[ext_resource type="AudioStream" uid="uid://bhrpju2k830c8" path="res://Main Menu/Assets/Music/mixkit-unlock-game-notification-253.wav" id="1_mtmlq"]
+
+[node name="click" type="AudioStreamPlayer" unique_id=1246901121]
+stream = ExtResource("1_mtmlq")
+bus = &"SFX"

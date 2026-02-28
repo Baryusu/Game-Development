@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cre5t6kjt5i1p"]
+
+[ext_resource type="AudioStream" uid="uid://xjhx4eb77t5h" path="res://Main Menu/Assets/Music/geoffharvey-little-creatures-cute-theme-386992.mp3" id="1_fbmny"]
+
+[node name="Music" type="AudioStreamPlayer" unique_id=2133307298]
+stream = ExtResource("1_fbmny")
+autoplay = true
+bus = &"Music"
