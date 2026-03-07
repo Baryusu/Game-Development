@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://eyrm88g6oaf7"]
+
+[ext_resource type="Texture2D" uid="uid://pad5jwrm2te6" path="res://Assets/Tilesets/candy2.png" id="1_1rc8e"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n5262"]
+size = Vector2(140, 20)
+
+[node name="Platform" type="AnimatableBody2D" unique_id=1683816487]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=45282116]
+texture = ExtResource("1_1rc8e")
+region_enabled = true
+region_rect = Rect2(241, 81, 146.4, 23)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=889937477]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_n5262")

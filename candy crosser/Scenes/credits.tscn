@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://cbbxkqqe140kh"]
+
+[ext_resource type="Script" uid="uid://7prvffjpcoxx" path="res://Scripts/credits.gd" id="1_gryuy"]
+[ext_resource type="Texture2D" uid="uid://lh0g67i8a4l7" path="res://Main Menu/Assets/Buttons/New folder/candy_background.png.jpg" id="1_r18jl"]
+[ext_resource type="PackedScene" uid="uid://bw838dlixllgq" path="res://Main Menu/Scenes/click.tscn" id="3_ccovl"]
+
+[node name="Credits" type="Control" unique_id=2034473229]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_gryuy")
+
+[node name="CandyBackground_png" type="Sprite2D" parent="." unique_id=1166007579]
+position = Vector2(375.5, 201)
+scale = Vector2(2.5689654, 2.275862)
+texture = ExtResource("1_r18jl")
+
+[node name="EndTitle" type="Label" parent="." unique_id=822393280]
+layout_mode = 0
+offset_left = 327.0
+offset_top = 91.0
+offset_right = 431.0
+offset_bottom = 179.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 64
+text = "FIN"
+horizontal_alignment = 1
+
+[node name="Description" type="Label" parent="." unique_id=1636290037]
+layout_mode = 0
+offset_left = 173.0
+offset_top = 225.0
+offset_right = 592.0
+offset_bottom = 248.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Do you wish to return to main menu or exit the game?"
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1436650353]
+layout_mode = 0
+offset_left = 63.0
+offset_top = 310.0
+offset_right = 694.0
+offset_bottom = 359.0
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_right = 40
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer" unique_id=837812395]
+layout_mode = 2
+theme_override_constants/separation = 128
+
+[node name="MainMenu" type="Button" parent="MarginContainer/HBoxContainer" unique_id=1619039592]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "RETURN TO MAIN MENU"
+flat = true
+
+[node name="Exit" type="Button" parent="MarginContainer/HBoxContainer" unique_id=1130481959]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.01, 0.01, 0.01, 1)
+text = "EXIT THE GAME"
+flat = true
+
+[node name="click" parent="." unique_id=1246901121 instance=ExtResource("3_ccovl")]
+
+[connection signal="pressed" from="MarginContainer/HBoxContainer/MainMenu" to="." method="_on_main_menu_pressed"]
+[connection signal="pressed" from="MarginContainer/HBoxContainer/Exit" to="." method="_on_exit_pressed"]

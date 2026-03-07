@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://ciufy34gn65wb"]
+
+[ext_resource type="Script" uid="uid://drcrwla014pbw" path="res://Scripts/mobile_controls.gd" id="1_rkofp"]
+[ext_resource type="Texture2D" uid="uid://ce07nytrvef6p" path="res://Assets/Sprites/left_button.png" id="2_khgqv"]
+[ext_resource type="Texture2D" uid="uid://imy4skhu8qgb" path="res://Assets/Sprites/right_button.png" id="3_cxa6i"]
+[ext_resource type="Texture2D" uid="uid://dnkyhbm5mypyr" path="res://Assets/Sprites/jump_button.png" id="4_38q8g"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cwwui"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_rkofp"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_khgqv"]
+
+[node name="MobileControls" type="CanvasLayer" unique_id=650598166]
+script = ExtResource("1_rkofp")
+
+[node name="Buttons" type="Node" parent="." unique_id=856624583]
+
+[node name="LeftButton" type="Sprite2D" parent="Buttons" unique_id=1093894212]
+position = Vector2(52, 342)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_khgqv")
+
+[node name="RightButton" type="Sprite2D" parent="Buttons" unique_id=366702236]
+position = Vector2(172, 342)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("3_cxa6i")
+
+[node name="JumpButton" type="Sprite2D" parent="Buttons" unique_id=966659765]
+position = Vector2(697, 342)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("4_38q8g")
+
+[node name="Left" type="TouchScreenButton" parent="." unique_id=1291868458]
+position = Vector2(51, 342)
+scale = Vector2(4, 4)
+shape = SubResource("CircleShape2D_cwwui")
+passby_press = true
+action = "move_left"
+
+[node name="Right" type="TouchScreenButton" parent="." unique_id=994116042]
+position = Vector2(171, 342)
+scale = Vector2(4, 4)
+shape = SubResource("CircleShape2D_rkofp")
+passby_press = true
+action = "move_right"
+
+[node name="Jump" type="TouchScreenButton" parent="." unique_id=266368595]
+position = Vector2(697, 342)
+scale = Vector2(4, 4)
+shape = SubResource("CircleShape2D_khgqv")
+action = "jump"
